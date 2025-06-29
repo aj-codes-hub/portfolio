@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>portfolio</title>
+</head>
+<body>
+
+    
+         <!-------------------------- Home Section start's here --------------------------->
+     <video class="background-video" autoplay muted loop>
+     <source src="VDO2.mp4" type="video/mp4">
+     </video>
+    
+        <div class="welcome">
+            <h1 class="welcome2">Portfolio.</h1>
+        </div>
+    
+    <div class="airo_button" onclick="airoButton2()" id="airoButton1"> ↓ </div>
+    <div class="airo_button2" onclick="airoButton()" id="airoButton2"> ↑ </div>
+    <div class="airo_button3" id="airoButton3"><a href="https://aj-codes-hub.github.io/Select_repo/" style="text-decoration: none; color:aqua;">see more project's →</a></div>
+    
+ 
+     <section id="myHome" class="main">
+         
+      <div class="content" >
+        <section class="inner_section">
+        <div class="d1">
+          <h1>Portfolio.</h1>
+        </div>
+        <div class="d2">
+          <a class="am"  onclick="myabout()">About</a>
+          <a class="am"  onclick="mySkill()">Skill's</a>
+          <a class="am"  onclick="myPortfolio()">Portfolio</a>
+          <a class="am"  onclick="myContent()">Contect</a>
+            <a class="am"  href="https://aj-codes-hub.github.io/Select_repo/">More</a>
+            <div class="dropdown_menu">
+               <button class="ri-menu-3-fill" onclick="myfunction()"></button>
+                <div class="dddm">
+                <a class="ddmc" id="ddm1" onclick="closeTab()">x</a>
+                <a class="ddm" id="ddm3" onclick="myabout()">About</a>
+                <a class="ddm" id="ddm4" onclick="mySkill()">Skill's</a>
+                <a class="ddm" id="ddm5" onclick="myPortfolio()">Portfolio</a>
+                <a class="ddm" id="ddm6" onclick="myContent()">Contect</a>
+                <a class="ddm" href="https://aj-codes-hub.github.io/Select_repo/" id="ddm2" >More</a>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="juner_innerSection">
+        <div class="d3">
+          <h1 class="c1">Hello, it's Me</h1>
+          <h1 class="c2">Ali Jaan</h1>
+           <img class="profile2" src="4040.jpg" >
+          <h1 class="c3" >AND I'm <span class="span1">Frontend Developer.</span></h1>
+          <p class="c4">A passionate Frontend Developer with a strong foundation in HTML, CSS, and JavaScript. I also build beautiful and functional websites using WordPress. I haven’t worked on any official projects yet, but I practice daily and have designed many websites for myself to sharpen my skills.
+              <span style="text-shadow: 1px 1px 5px yellow;">"Every expert was once a beginner—I'm on my journey to becoming one."</span></p>
+            <a href="https://www.facebook.com/share/19dYik5mqR/" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <div class="DCV">
+              <a class="CV" href="my_resume.pdf">Download CV</a>
+            </div>
+        </div>
+        <div class="d4">
+        <img class="profile" src="4040.jpg" >
+        </div>
+        </section>
+      </div>
+     </section>
+
+       <!-------------------------- About Section start's here --------------------------->
+ 
+     <section id="myabout" class="main_2">
+      <div class="content_2">
+        <section class="inner_section2">
+          <div class="d11">
+            <img class="profile3" src="3030.png" alt="">
+          </div>
+          <div class="d22">
+            <h1>About Me</h1>
+            <p >Hi! I'm a passionate Frontend Developer <br>with a strong foundation in HTML, CSS,<br> and JavaScript. I also build beautiful and functional websites using WordPress. I haven’t worked on any official projects <br> yet, but I practice daily and have designed many websites for myself to sharpen my skills.<br>
+              <span style="color:yellow;">"Every expert was once a beginner<br>—I'm on my journey to becoming one.</p>
+               <div id="mySkill" class="about_me"> 
+                <p class="tab-links active-link" onclick="opentab('skills')">Skill's</p>
+                <p class="tab-links"  onclick="opentab('education')">Education</p>
+                <p class="tab-links"  onclick="opentab('experince')">Experince</p>
+               </div>
+               <div  class="tab-contents active-tab" id="skills">
+                 <ul>
+                  <li><span>UI?UX</span><br>Designing Web/app Interfaces</li>
+                  <li><span>Web Development</span><br>Web App Development</li>
+                  <li><span>robotic and AI</span><br>building hend made robort's and RC car's at home</li>
+                 </ul>
+               </div>
+
+              <div class="tab-contents" id="education">
+                <ul>
+                 <li><span>school</span><br>class 9th from t.C.F school bederal board islamabad</li>
+                 <li><span>school</span><br>class 10th from t.C.F school bederal board islamabad</li>
+                 <li><span>Courses</span><br>frountend development by html,css,javascript and wordpress</li>
+                 <li><span>WordPress developer</span><br>From simba institute and Nisubha foundation</li>
+                 <li><span>front-end developer</span><br>From simba institute and ni subha foundation</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experince">
+                <ul>
+                 <li><span>Fresher</span><br>Only have a Self-working experince and..<br>
+                  i created this protfolio myself using HTML,CSS and javascript</li>
+                </ul>
+              </div>
+          </div>
+        </section>
+      </div>
+     </section>
+    <!-------------------------- Mywork Section start's here --------------------------->
+    
+<section id="myWork" class="main_3">
+         <div class="d555">
+             <h1>My work</h1>
+             <h2>Responsive website</h2>
+         </div>
+        <div class="content_3">
+        
+            <section class="inner_section3">
+    
+                <div class="d444">
+                  <h1>My work</h1>
+                    <h2>Responsive website's</h2>
+                </div>
+
+                <div style="display: flex; width: 125.2%;">
+                <div class="d111" id="d111">       
+                    <div class="mob"><h1>Mobile</h1></div>
+                </div>
+                <div class="d222" id="d222">
+                    <div class="tab"><h1>Tablet</h1></div>
+                </div>
+                </div>
+                <div class="d333" id="d333">
+                    <div class="com"><h1>Computer</h1></div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <!-------------------------- Contect Section start's here --------------------------->
+    <section id="myContent" class="main_5">
+        <div class="content_5">
+            <section class="inner_section5">
+                <div class="d11111">
+                    <h1>Contect Me</h1> 
+                    <div class="i-align">
+                    <a href=""><i class="fa fa-paper-plane-o"></i>aalijjaan@gmail.com</a><br>
+                    <a href=""><i class="fa fa-whatsapp"></i>03303840618</a><br>
+                    <a href=""><i class="fa fa-phone"></i>03243992725</a>
+                    </div>
+                    <div class="si">
+                        <a href="https://www.facebook.com/share/19dYik5mqR/" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <div class="DCV">
+                          <a class="CV2" href="">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d22222">
+                    <input class="input-box" name="Nane" placeholder="Name">
+                    <input class="input-box" name="email" placeholder="@gmail"> 
+                    <textarea class="textarea" name="message" rows="8" placeholder="Message"></textarea>
+                    <a class="submit" href="">Submit</a>
+                </div>
+            </section>
+        </div>
+
+        <div class="DSMP">
+          <a class="SMP" href="">See more project's</a>
+        </div>
+        
+        <footer class="footer">
+          &copy; <span id="year"></span> Alijan. all rights reserved
+        </footer>
+    </section>
+         
+            
+     <script src="script.js"> </script>
+</body>
+</html>
